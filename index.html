@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <title>index</title>
+    <script type="module" crossorigin src="/VoyseaProject/assets/main-891e3043.js"></script>
+    <link rel="stylesheet" href="/VoyseaProject/assets/main-64000440.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand " href="index.html">
+        <div class=d-flex>
+          <img src="/VoyseaProject/assets/南洋風logo-02-c7eadb5b.png" alt="" width="100" height="60" class="d-inline-block align-text-top">
+              <div>
+                    <p>南洋瘋游趣</p>
+                    <h3 class="text-success">VoySEA</h3>
+              </div>       
+        </div>     
+      </a>
+      <form class="d-flex">
+        <div class="input-group flex-grow-1 position-relative">
+          <input type="search" class="form-control border-gray-200 text-black-50" placeholder="快速搜尋全站" aria-label="Search">
+          <a class="d-block position-absolute d-flex align-items-center top-50 end-0 translate-middle" 
+              type="button" id="button-addon1"
+              href="search.html">
+            <span class="material-symbols-outlined text-accent-200">search</span>
+          </a>      
+        </div>
+      </form>
+
+      <ul class="navbar-nav header-links justify-content-lg-end align-items-start">
+        <li class="mt-4 mt-lg-0 px-3">
+          <a class="active p-12 p-lg-0 text-dark" aria-current="page" href="#">
+            <i class="bi bi-heart"></i>
+            我的收藏</a>
+        </li>
+        <li class="mt-4 mt-lg-0 px-3">
+          <a class="p-12 p-lg-0 text-dark" href="shoppingcart.html">
+            <i class="bi bi-bag"></i>
+            購物清單</a>
+        </li>
+        <li class="mt-4 mt-lg-0 px-3">
+          <a class="p-12 p-lg-0" href="login.html">
+            <button type="button" class="btn btn-success btn-sm text-white">  
+              <i class="bi bi-person-circle"></i>
+              登入/註冊
+            </button>
+          </a>
+        </li>
+      </ul>
+    </div>
+</nav>
+    <div class="container-fluid">
+        <!--三張照片輪播-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/VoyseaProject/assets/index-photo-1(1920x800)-1b650753.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-white top-50">
+                <h2 class="h1 text-white">背上背包，說走就走！</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/VoyseaProject/assets/index-photo-2(1920x800)-a22a8f1d.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-white top-50">
+                <h2 class="h1 text-white">背上背包，說走就走！</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/VoyseaProject/assets/index-photo-3(1920x800)-284b2ba4.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-white top-50">
+                <h2 class="h1 text-white">背上背包，說走就走！</h2>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!--三張照片輪播END-->
+        <!--商品推薦--> 
+        <h2 class="fs-5 pt-3 text-center">
+              商品推薦
+        </h2>
+        <!--商品推薦END-->
+
+        <!-- Swiper -->
+        <div class="swiper mySwiper py-3">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="card">
+                      <div class="card-img-container">
+                          <img src="/VoyseaProject/assets/index-Sigapore-4ca0ac50.jpg" alt="Singapore">
+                          <div class="rating text-warning">4.7/5</div>
+                      </div>
+                      <div class="card-body">
+                          <h5 class="card-title d-flex">新加坡 Singapore
+                            <i class="bi bi-heart ms-auto"></i></h5>
+                          <small class="fs-6 card-text text-black-50">新加坡是一個獨立有文化的城市，蘊含歷史價值及多元民族文化，是熱門旅遊地點之一。</small>
+                          <p class="price">NT$ 28,000 / 人</p>
+                          <div class="card-footer d-flex">
+                            <i class="bi bi-suitcase-lg fs-4 me-3"></i>
+                            <button type="button" class="btn btn-success btn-sm w-100 text-white"> 
+                            查看更多
+                          </button>
+                          </div>   
+                      </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="card">
+                      <div class="card-img-container">
+                          <img src="/VoyseaProject/assets/index-Sigapore-4ca0ac50.jpg" alt="Thailand">
+                          <div class="rating text-warning">4.7/5</div>
+                      </div>
+                      <div class="card-body">
+                          <h5 class="card-title d-flex">泰國 Thailand
+                            <i class="bi bi-heart ms-auto"></i></h5>
+                          <p class="card-text">泰國以其多元的旅遊景點而著稱...</p>
+                          <p>NT$ 26,000 / 人</p>
+                          <div class="card-footer d-flex">
+                            <i class="bi bi-suitcase-lg fs-4 me-3"></i>
+                            <button type="button" class="btn btn-success btn-sm w-100 text-white"> 
+                            查看更多
+                            </button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="card">
+                      <div class="card-img-container">
+                          <img src="/VoyseaProject/assets/index-Sigapore-4ca0ac50.jpg" alt="Vietnam">
+                          <div class="rating text-warning">4.7/5</div>
+                      </div>
+                      <div class="card-body">
+                          <h5 class="card-title">越南 Vietnam</h5>
+                          <p class="card-text">越南擁有壯麗的自然景觀和豐富的歷史文化...</p>
+                          <p class="price">NT$ 18,000 / 人</p>
+                          <div class="card-footer d-flex">
+                            <i class="bi bi-suitcase-lg fs-4 me-3"></i>
+                            <button type="button" class="btn btn-success btn-sm w-100 text-white"> 
+                            查看更多
+                          </button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- 導航箭頭 -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+      
+        <!--CARD END-->
+
+        
+        
+
+
+    </div>
+    <footer class="footer">
+    <div class="d-flex p-5 justify-content-between">
+        <div>
+            <p class="fs-5 text-white">VoySEA 南洋風情畫有限公司</p>
+            <p class="text-white">110 台北市信義區信義路五段7號</p>
+            <p class="text-white">voysea@gmail.com</p>
+            <p class="text-white">+886 912345678</p>
+        </div>
+        <div class="d-flex flex-column justify-content-between">
+            <div class="text-end">
+                <a href="https://www.facebook.com/?locale=zh_TW"><i class="bi bi-facebook text-white fs-2 ms-2"></i></a>
+                <a href="https://www.instagram.com/"><i class="bi bi-instagram text-white fs-2 ms-2"></i></a>
+                <a href="https://line.me/tw/"><i class="bi bi-line text-white fs-2 ms-2"></i></a>
+            </div>
+            <div class="text-end">
+                <a href=""><img src="/VoyseaProject/assets/icon-visa-3c126174.png" alt="" class="img ms-2"></a>
+                <a href=""><img src="/VoyseaProject/assets/icon-card-d294d6d4.png" alt="" class="img ms-2"></a>
+                <a href=""><img src="/VoyseaProject/assets/icon-jcb-914610dc.png" alt="" class="img ms-2"></a>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex p-2 justify-content-between">
+        <p class="text-white">本網站僅供個人作品使用，不提供商業用途</p>
+        <p class="text-white text-end">Copyright © 2024 oscar.</p>
+    </div>
+    
+</footer>      <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- 初始化 Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 5,      // 一次顯示三個滑塊
+        spaceBetween: 10,      // 每個滑塊之間的間距
+        centeredSlides: true,  // 將活動滑塊置於中間
+        loop: true,            // 循環播放
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1, // 在小螢幕上顯示一個
+          },
+          768: {
+            slidesPerView: 2, // 在平板上顯示兩個
+          },
+          1024: {
+            slidesPerView: 3, // 在桌面上顯示三個
+          },
+        },
+      });
+    </script>
+
+    
+  </body>
+</html>
